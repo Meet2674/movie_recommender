@@ -13,19 +13,19 @@ the database and extending them to larger and larger item sets as long as those 
 
 #### Support <p>
 Support is an indication of how frequently the itemset appears in the dataset</p>
-![](/res/support.png)
+![](https://github.com/Meet2674/movie_recommender/tree/master/res/support.png)
 
 #### Confidence <p>
 Confidence is an indication of how often the rule has been found to be true.</p>
-![](/res/confidence.png)
+![](https://github.com/Meet2674/movie_recommender/tree/master/res/confidence.png)
 
 #### Lift <p>
 It is defined as :
-![](/res/lift.png) </p>
+![](https://github.com/Meet2674/movie_recommender/tree/master/res/lift.png) </p>
 
 If the lift is > 1, that lets us know the degree to which those two occurrences are dependent on one another, and makes those rules potentially useful for predicting the consequent in future data sets.
 
 If the lift is < 1, that lets us know the items are substitute to each other. This means that presence of one item has negative effect on presence of other item and vice versa.
 
 # Algorithm
-![](/res/algo.png)
+![](https://github.com/Meet2674/movie_recommender/tree/master/res/algo.png)
